@@ -1,0 +1,24 @@
+/**index.wxss**/
+.slide-image{
+  width: 100%;
+  height: 150;
+}
+.message{
+  margin-top: 20rpx;
+  background: lightgray;
+  overflow: hidden;
+}
+.message-title{
+  font-size: 40rpx;
+  text-align: center;
+}
+.message-desc{
+  display: block;
+  font-size: 32rpx;
+  line-height: 1.4;
+  padding: 10rpx;
+}
+.message-time{
+  font-size: 20rpx;
+  float: right;
+}

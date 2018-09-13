@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<swiper indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='message' wx:for="{{messageList}}" bindtap='toDetail' data-index='{{index}}'>
+  <view class='message-title'>{{item.title}}</view>
+  <view class='message-desc'>
+    <text>{{item.shortDesc}}</text>
+  </view>
+  <view class='message-time'>{{item.time}}</view>
+</view>
+
